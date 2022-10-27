@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F6F8F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #F6F8F9;
+    text-align: center;
+}
+.container{   
+    border-radius: 30px;
+    width: 400px;
+    height: 800px;
+    margin-top: 80px;
+    -webkit-box-shadow: 4px 4px 100px 0px rgba(8, 0, 255, 0.684);
+    -moz-box-shadow: 4px 4px 100px 0px rgb(0, 17, 255);
+    box-shadow: 4px 4px 100px 0px rgb(34, 0, 255);
+    background-color: #17181A;
+    color: #F6F8F9;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5fr 5fr 5fr 5fr 5fr;
+    grid-row-gap: 10px;
+    margin: 0px 6px 0px 15px;
+    grid-column-gap: 10px;
+    font-size: 30px;
+}
+.buttons > .button{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    list-style: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.buttons > .button:hover{
+    background-color: #222427;
+}
+.buttons > #slash{
+    background-color: #FF9500;
+}
+.buttons > #slash:hover{
+    background-color: #ff950076;
+}
+.buttons > #null{
+    width: 70px;
+}
+.buttons > #null:hover{
+    background-color: #FF9500;
+}
+.buttons > #equal{
+    background-color: #2EC973;
+}
+.buttons > #equal:hover{
+    background-color: #ff950076;
+}
+.buttons > #minus{
+    background-color: #FF9500;
+}
+.buttons > #minus:hover{
+    background-color: #ff950076;
+}
+.buttons > #angam{
+    background-color: #FF9500;
+}
+.buttons > #angam:hover{
+    background-color: #ff950076;
+}
+.buttons > #c{
+    background-color: #d53c4678;
+    color: #D53C45;
+}
+.buttons > #c:hover{
+    background-color: #D53C45;
+    color: #ffffff;
+}
+#typing_area{
+    width: auto;
+    height: 170px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-color: #17181A;
+    font-size: 50px;
+    padding-right: 20px;
+    margin-bottom: 95px;
+    border-radius: 30px 30px 15px 15px;
+}
+
+.clear{
+    background-color: #F6F8F9;
+    color: #17181A;
+    width: 50px;
+    height: 50px;
+    padding-right: 2px;
+}
+.clear:hover{
+    color: #F6F8F9;
+}
