@@ -14,7 +14,7 @@ buttons.map(button => {
                     break;
                     case "=":
                         try{
-                            typingArea.innerText = eval(typingArea.innerText);
+                            typingArea.innerText = eval(typingArea.innerText).tofixed(1);
                         }catch{
                             typingArea.innerText = "Error!";
                         } 
