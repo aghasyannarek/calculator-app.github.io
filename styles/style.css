@@ -133,10 +133,12 @@ h3{
         height: 100vh;
     }
     #typing_area{
-        margin-bottom: 30px;
+        position: absolute;
+        right: 0;
+        top: 50px;
     }
     .buttons{
-        width: 370px;
+        width: 100vw;
     }
 }
 @media screen and (max-width: 360px) {
